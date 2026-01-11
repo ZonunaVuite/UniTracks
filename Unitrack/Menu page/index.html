@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Menu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="menustyle.css">
+</head>
+<body>
+
+  <!-- App Bar -->
+  <header class="app-bar">
+    <button class="back" onclick="history.back()"><img src="../icon/back button.svg" alt="Back"></button>
+    <div class="app-title">
+      <!-- <img src="../icon/menu icon.svg" alt="menu"> -->
+      <span>MENU</span>
+    </div>
+  </header>
+
+  <!-- Menu Card -->
+  <section class="menu-card">
+
+    <!-- Academics -->
+    <h3 class="section-title">ACADEMICS</h3>
+    <div class="menu-group academics">
+      <div class="menu-item">Timetable/Routine</div>
+      <div class="menu-item">Attendance History</div>
+      <div class="menu-item">Faculty</div>
+      <div class="menu-item">My BatchMates</div>
+    </div>
+
+    <!-- System -->
+    <h3 class="section-title">SYSTEM</h3>
+    <div class="menu-group system">
+      <a href="../QR page/index.html">
+      <div class="menu-item">QR Scanner</div> </a>  
+      <!-- <a href="../QR page/index.html">    -->
+      <div class="menu-item">Dark Mode</div></a>
+       <!-- <a href="../QR page/index.html"></a> -->
+      <div class="menu-item">Settings</div>
+      <div class="menu-item">Notification</div>
+      <div class="menu-item">Share</div>
+      <div class="menu-item">Help</div>
+      <div class="menu-item">Rating</div>
+    </div>
+
+    <!-- Account -->
+    <h3 class="section-title">ACCOUNT</h3>
+    <div class="menu-group account">
+      <div class="menu-item logout">Log Out</div>
+    </div>
+
+  </section>
+
+  <!-- Bottom Navigation -->
+  <nav class="bottom-nav">
+    <button class="nav-item">
+      <span class="nav-icon"><img src="../icon/home.svg" alt="Home"></span>
+      <span>Home</span>
+    </button>
+    
+    <button class="nav-item active">
+      <span class="nav-icon"><img src="../icon/attendance check.svg" alt="Attendance"></span>
+      <span>Attendance</span>
+    </button>
+    
+    <button class="nav-item">
+      <span class="nav-icon"><img src="../icon/profile icon.svg" alt="Profile"></span>
+      <span>Profile</span>
+    </button>
+    
+    <button class="nav-item">
+      <span class="nav-icon"><img src="../icon/menu.svg" alt="Menu"></span>
+      <span>Menu</span>
+    </button>
+  </nav>
+
+</body>
+</html>
